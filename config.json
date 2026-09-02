@@ -80,6 +80,6 @@
 
   "server": {
     "_comment": "The single public-facing port. nginx listens here and is the ONLY process bound to 0.0.0.0. Everything else (xray inbounds, the panel, Tor SOCKS ports) binds to 127.0.0.1 and is reachable only internally.",
-    "public_port": 3000
+    "public_port": 8080
   }
 }
