@@ -73,7 +73,7 @@
   "direct": {
     "_comment": "Direct (non-Tor) egress. IMPORTANT: port is now INTERNAL ONLY (127.0.0.1). Public traffic always enters via nginx on port 3000 and is reverse-proxied to this port. Do NOT expose this port publicly.",
     "enabled": true,
-    "port": 8080,
+    "port": 18080,
     "path": "/direct",
     "tag": "direct-inbound"
   },
